@@ -1,0 +1,950 @@
+* {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  width: 100vw;
+  background-color: #131921;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.amazon-logo {
+  padding-left: 20px;
+  padding-top: 4px;
+  width: 97px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazon-logo img {
+  transition: 0.2s ease-in-out all;
+  width: 100%;
+}
+
+.amazon-logo img:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.location {
+  transition: 0.2s ease-in-out all;
+}
+
+.location:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.loc-deliver {
+  color: white;
+  margin-left: 35px;
+}
+
+.loc-country {
+  color: white;
+  margin-left: 20px;
+}
+
+.search {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 40px;
+}
+
+.search-select,
+.search-input,
+.search-logo {
+  height: 100%;
+}
+.search-logo button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.search-select select,
+.search-input input {
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.search-select select {
+  width: 45px;
+}
+
+.search-input input {
+  width: 100%;
+}
+
+.search-logo i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 100%;
+  border: none;
+  background-color: #f3a847;
+}
+
+.country {
+  transition: 0.2s ease-in-out all;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-left: 20px;
+}
+
+.country-flag img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 25px;
+  width: 25px;
+}
+.country-language {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.country-arrow {
+  color: white;
+  padding-left: 5px;
+  display: flex;
+  align-items: end;
+}
+.country:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+.signin {
+  transition: 0.2s ease-in-out all;
+  margin-left: 20px;
+  color: white;
+  font-size: 13px;
+}
+.sign-acc {
+  display: flex;
+  font-size: 17px;
+  font-weight: bold;
+}
+.sign-arrow {
+  margin-left: 2px;
+  display: flex;
+  align-items: end;
+}
+.signin:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+.order {
+  transition: 0.2s ease-in-out all;
+  margin-left: 30px;
+  color: white;
+  font-size: 13px;
+}
+.order-detail {
+  font-size: 17px;
+  font-weight: bold;
+}
+.order:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+.cart {
+  transition: 0.2s ease-in-out all;
+  margin-left: 30px;
+  display: flex;
+  color: white;
+}
+.cart-logo {
+  font-size: 30px;
+}
+.cart-text {
+  display: flex;
+  align-items: end;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.cart:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.second-nav {
+  width: 100vw;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-nav ul {
+  font-size: 14px;
+  color: white;
+  height: 40px;
+  width: 99%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #232f3e;
+}
+ul li {
+  transition: 0.2s ease-in-out all;
+}
+ul li:hover {
+  padding: 5px;
+  border: 2px solid white;
+}
+ul li:last-child {
+  font-weight: bold;
+  padding-left: 40px;
+  font-size: 16px;
+}
+li i {
+  padding-left: 5px;
+}
+
+ul li:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul li:first-child i {
+  padding-right: 5px;
+  padding-left: 0;
+}
+.background-img {
+  height: 300px;
+  background-image: url(kitchen.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+.all-bigdiv {
+  position: relative;
+  top: 200px;
+  left: 25px;
+  display: flex;
+}
+.kitchen {
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.kitchen-text {
+  font-weight: bolder;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.cooker img {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  height: 140px;
+  width: 250px;
+}
+.cooker-text {
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+.three-kitchen-item {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.coffee img {
+  height: 70px;
+  width: 90px;
+}
+.pots img {
+  height: 70px;
+  width: 90px;
+}
+.kettels img {
+  height: 70px;
+  width: 90px;
+}
+.more {
+  position: relative;
+  left: 10px;
+  top: 70px;
+  font-size: 15px;
+}
+.home-items {
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.home-item-text {
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.first-two-items {
+  display: flex;
+}
+.cleaning-tool img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.cleaning-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.home-storage img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.storage-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.last-two-items {
+  display: flex;
+  flex-direction: row;
+}
+.home-decor img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.home-decor-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.bedding img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.bedding-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.new-arrival {
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.new-text {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.dining img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.dining-text {
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
+.improvement img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.improv-text {
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+.decor-second img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.decor-second-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.pillow img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.pillow-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.Gaming-accessories {
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.gaming-accessories-text {
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.headphone img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.headphone-text {
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
+.keyboard img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.keyboard-text {
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+.mouse img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.mouse-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.chairs img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.chairs-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.all-bigdiv-second {
+  position: relative;
+  top: 350px;
+  display: flex;
+}
+.background-colour {
+  height: 800px;
+  width: 100vw;
+  background-color: #e3e6e6;
+}
+.shop-deals {
+  margin-left: 50px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.shop-deals-text {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.jeans img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.jeans-text {
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
+.tops img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.tops-text {
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+.dresses img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.dress-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.shoes img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+
+.shoes-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+
+.refresh {
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white;
+}
+.refresh-text {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.first-two-items {
+  display: flex;
+}
+
+.jug img {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.jug-text {
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
+.home-cloth img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+.home-cloth-text{
+  position: relative;
+  top: 5px;
+  left: 15px; 
+}
+.kitchen-item img{
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  width: 130px;
+}
+.kitchen-item-text{
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.health-and-beauty img {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 15px;
+  height: 100px;
+  width: 130px;
+}
+
+.health-beauty-text {
+  margin-top: 4px;
+  margin-left: 15px;
+}
+.gaming-cpu{
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white; 
+}
+.gaming-text{
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px; 
+}
+.gaming-cpu img{
+  height: 300px;
+  width: 270px;
+  position: relative;
+  top: 17px;
+  left: 23px;
+}
+.more-gaming{
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.toys{
+  margin-left: 25px;
+  height: 420px;
+  width: 310px;
+  background-color: white; 
+}
+.toys-text{
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px; 
+}
+.toys-bear img{
+  height: 300px;
+  width: 270px;
+  position: relative;
+  top: 17px;
+  left: 23px;
+}
+.more-toys{
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.background-color-third{
+  height: 400px;
+  width: 100vw;
+  background-color: #E3E6E6;
+  margin: 0;
+
+}
+.all-bigdiv-third{
+  height:300px ;
+  width: 1315px;
+  background-color: white;
+  position: relative;
+  left: 50px;
+}
+.bigdiv-third{
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.books-text{
+  position: relative;
+  left: 15px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.melania{
+  padding-left: 15px;
+}
+.sally{
+  padding-right: 15px;
+}
+.back-on-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  background-color: #485769;
+}
+.back-text{
+  color: white;
+  font-weight: bolder;
+}
+.background-footer{
+  height: 450px;
+  width: 100vw;
+  background-color: #232F3E;
+}
+.bigdiv-footer{
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+}
+.first-div{
+  position: relative;
+  right: 50px;
+}
+.Get-to-know-us{
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Careers{
+  position: relative;
+  top: 5px;
+}
+.blogs{
+  position: relative;
+  top: 10px;
+}
+.About-Amazon{
+  position: relative;
+  top: 20px;
+}
+.Investors-Relations{
+  position: relative;
+  top: 30px;
+}
+.Amazon-devices{
+  position: relative;
+  top: 40px;
+}
+.Amazon-science{
+  position: relative;
+  top: 50px;
+}
+
+.Make-Money-with-Us{
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Sell-products-on-Amazon{
+  position: relative;
+  top: 5px;
+}
+.Sell-on-Amazon-Business{
+  position: relative;
+  top: 10px;
+}
+.Sell-apps-on-Amazon{
+  position: relative;
+  top: 20px;
+}
+.Become-an-Affiliate{
+  position: relative;
+  top: 30px;
+}
+.Advertise-Your-Products{
+  position: relative;
+  top: 40px;
+}
+.Self-Publish-with-Us{
+  position: relative;
+  top: 50px;
+}
+.Host-an-Amazon-Hub{
+  position: relative;
+  top: 60px;
+}
+.See-More-Make-Money-with-Us{
+  position: relative;
+  top: 70px;
+}
+
+.Amazon-Payment-Products{
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Amazon-Business-Card{
+  position: relative;
+  top: 5px;
+}
+.Shop-with-Points{
+  position: relative;
+  top: 10px;
+}
+.Reload-Your-Balance{
+  position: relative;
+  top: 20px;
+}
+.Amazon-Currency-Converter{
+  position: relative;
+  top: 30px;
+}
+.Let-Us-Help-You{
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Amazon-and-COVID-19{
+  position: relative;
+  top: 5px;
+}
+.Your-Account{
+  position: relative;
+  top: 10px;
+}
+.Your-Orders{
+  position: relative;
+  top: 20px;
+}
+.Shipping-Rates-Policies{
+  position: relative;
+  top: 30px;
+}
+.Returns-Replacements{
+  position: relative;
+  top: 40px;
+}
+.Manage-Your-Content-and-Devices{
+  position: relative;
+  top: 50px;
+}
+.Help{
+  position: relative;
+  top: 60px;
+}
+.fourth-div{
+  position: relative;
+  left: 50px;
+}
+.line{
+  position: relative;
+  top: 170px;
+  font-weight: lighter
+}
+
+.large{
+  display: flex;
+}
+
+.logo-amazon img{
+  position: relative;
+  top: 200px;
+  left: 500px;
+}
+.language{
+  position: relative;
+  top: 190px;
+  left: 600px;
+  height: 30px;
+  width: 120px;
+  border: 2px solid white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  font-size: 12px;
+  margin-left: 5px;
+}
+.text{
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.arrow-first{
+  color: white;
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+  left: 30px;
+}
+.arrow-second{
+  
+  font-size: 13px;
+  position: relative;
+  bottom: 5px;
+  left: 30px;
+  color: white;
+}
+.money{
+  height: 30px;
+  width: 150px;
+  border: 2px solid white;
+  position: relative;
+  top: 190px;
+  left: 615px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.symbol-money{
+  position: relative;
+  left: 5px;
+
+}
+.money-text{
+  position: relative;
+  left: 13px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.flag-country{
+  height: 30px;
+  width: 150px;
+  border: 2px solid white;
+  position: relative;
+  top: 190px;
+  left: 630px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.flag-symbol{
+  position: relative;
+  left: 5px; 
+}
+.country-text{
+  position: relative;
+  left: 13px;
+  font-weight: bold;
+  font-size: 13px;
+}
