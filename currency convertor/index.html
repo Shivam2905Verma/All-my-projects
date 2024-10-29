@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <div class="bigbox">
+        <div class="header">CURRENCY CONVERTER</div>
+        <div class="inputvalue">
+          <p class="input_text">Enter Amount</p>
+          <input type="text" placeholder="Enter value" />
+        </div>
+        <div class="countries">
+          <div class="from">
+            <div class="from_text">From</div>
+            <div class="select_country">
+              <img id="firstimg" class="firstimg" src="https://flagsapi.com/US/flat/64.png" />
+              <select class="select_0 selectCountry" id="select_one">
+              </select>
+            </div>
+          </div>
+          <div class="to">
+            <div class="to_text">To</div>
+            <div class="select_country">
+              <img
+                class="firstimg"
+                src="https://flagsapi.com/IN/flat/64.png"
+                alt=""
+              />
+              <select class="select_0 selectCountry" id="select_two"></select>
+            </div>
+          </div>
+        </div>
+        <div class="currency_value">EXCHANGE RATE IS.......</div>
+        <div class="button"><button class="button">exchange the value</button></div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="first.js"></script>
+  </body>
+</html>
